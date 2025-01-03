@@ -1,0 +1,96 @@
+
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Background gradient for the page */
+        body {
+            background: linear-gradient(to right, #4b79a1, #283e51);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Expense Tracker Container */
+        .expense-tracker {
+            background: radial-gradient(circle at top, #fff5e1, #e4a972);
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: #333;
+        }
+
+        .expense-tracker h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+
+        .form-group label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        /* Add Expense Button */
+        .add-expense-btn {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        /* Table for Displaying Expenses */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        /* Total Display */
+        .total {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            color: #4caf50;
+        }
+
+        /* Delete Button */
+        .delete-btn {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+ .name{
+    color:black;
+ }
